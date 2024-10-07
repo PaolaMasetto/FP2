@@ -62,7 +62,7 @@ int main()
     //Convertir un número a un string
     int n1 = 123;
     string numeroAtexto = to_string(n1);
-    cout << "Numero como string: " << numeroAtexto << endl;
+    cout << "Numero como string: " << numeroAtexto + " esto es un texto" << endl;
 
     //Ejercicio 13
     //Convertir un string a número
