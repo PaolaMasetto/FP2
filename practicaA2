@@ -9,44 +9,54 @@ using namespace std;
 int main()
 {
  // Ejercicio 1.1
-	int numeroMaterias;
+	int numeroMaterias = 6;
+	cout << "Número de materias cursando: " << numeroMaterias << endl;
 	
-
  // Ejercicio 1.2
-	int numeroCuatrimestre;
-	cout << “Introduce el valor del cuatrimestre que estas cursando: “;
-	cin >> numeroCuatrimestre;
-	cout << “Estas cursando el “ << numeroCuatrimestre << “ cuatrimestre” << endl;
+	int numeroCuatrimestre = 4;
+	cout << “Estas cursando el “ << numeroCuatrimestre << “° cuatrimestre” << endl;
 
 // Ejercicio 1.3
-	string materia;
-	cout << "Introduce el nombre de la materia: ";
-	cin >> materia;
+	string materia = "Fundamentos de Programación";
 	cout << "La materia que estas cursando es " << materia << "." << endl;
 
 // Ejercicio 1.4
-	string cuenta;
-	cout << “Introduce tu número de cuenta: “;
-	cin >> cuenta;
+	string cuenta = "335016918";
 	cout << “Tu numero de cuenta es: “ << cuenta << “.” << endl;
 
 // Ejercicio 1.5
-	string nombre;
-	cout << "Introduce tu nombre: ";
-  cin >> nombre;
-  cout << "Tu nombre es: " << nombre << "." << endl;
+	string nombre = "Paola";
+  	cout << "Tu nombre es: " << nombre << "." << endl;
 
 // Ejercicio 1.6
-  string apellidoPaterno;
-  cout << "Introduce tu apellido paterno: ";
-  cin >> apellidoPaterno;
-  cout << "Tu apellido paterno es: " << apellidoPaterno << "." << endl;
+	string apellidoPaterno = "Masetto";
+	cout << "Tu apellido paterno es: " << apellidoPaterno << "." << endl;
 
 // Ejercicio 1.7
-  string apellidoMaterno;
-  cout << "Introduce tu apellido materno: ";
-  cin >> apellidoMaterno;
-  cout << "Tu apellido materno es: " << apellidoMaterno << "." << endl;
+	string apellidoMaterno = "Flores";
+	cout << "Tu apellido materno es: " << apellidoMaterno << "." << endl;
 
 // Ejercicio 1.8
-  
+	long long celular = 5530380445L;
+	cout << "Tu número de celular es: " << celular << endl;
+
+// Ejercicio 1.9
+	long long casa = 5511063050L;
+	cout << "Tu número de casa es: " << casa << endl;
+
+// Ejercicio 1.10
+	string correoQueMasUso = "paolamasetto16@gmail.com";
+	cout << "El correo que más usas es: " << correoQueMasUso << endl;
+
+// Ejercicio 1.11
+	string correoMyUnitec = "paola.masetto35@myunitec.edu.mx";
+	cout << "Tu correo asignado en UNITEC es: " << correoMyUnitec << endl;
+
+// Ejercicio 1.12
+	string carrera = "Lic. en Diseño, Animación y Arte Digital";
+	cout << "La carrera que cursas acutalmente es: " << carrera << "." << endl;
+
+// Ejercicio 1.13
+	bool blackboard;
+
+
