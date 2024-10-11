@@ -35,20 +35,36 @@ int main()
 // Ejercicio 1.5
 	string nombre;
 	cout << "Introduce tu nombre: ";
-  cin >> nombre;
-  cout << "Tu nombre es: " << nombre << "." << endl;
+	cin >> nombre;
+	cout << "Tu nombre es: " << nombre << "." << endl;
 
 // Ejercicio 1.6
-  string apellidoPaterno;
-  cout << "Introduce tu apellido paterno: ";
-  cin >> apellidoPaterno;
-  cout << "Tu apellido paterno es: " << apellidoPaterno << "." << endl;
+  	string apellidoPaterno;
+  	cout << "Introduce tu apellido paterno: ";
+  	cin >> apellidoPaterno;
+  	cout << "Tu apellido paterno es: " << apellidoPaterno << "." << endl;
 
 // Ejercicio 1.7
-  string apellidoMaterno;
-  cout << "Introduce tu apellido materno: ";
-  cin >> apellidoMaterno;
-  cout << "Tu apellido materno es: " << apellidoMaterno << "." << endl;
+  	string apellidoMaterno;
+  	cout << "Introduce tu apellido materno: ";
+  	cin >> apellidoMaterno;
+  	cout << "Tu apellido materno es: " << apellidoMaterno << "." << endl;
 
 // Ejercicio 1.8
+	long long celular;
+	cout << "Ingresa tu número de celular: ";
+	cin >> celular;
+	cout << "Tu número de celular es: " << celular << "." << endl;
+
+// Ejercicio 1.9 
+	long long casa;
+	cout << "Ingresa tu número de casa: ";
+	cin >> casa;
+	cout << "Tu número de casa es:" << casa << "." << endl;
+
+// Ejercicio 1.10
+	
+
+
+
   
