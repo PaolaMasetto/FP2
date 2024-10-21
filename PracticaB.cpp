@@ -14,5 +14,6 @@ cout << "La potencia de " << num << " es " << (num * num);
 // Ejercicio 1.3
 float yardas;
 cout << "Ingrese las yardas: ";
-cin >> yardas
+cin >> yardas;
+cout << "Numero en metros: "
 
