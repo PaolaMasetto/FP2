@@ -9,11 +9,23 @@ cout << "(1 / 3 * 3) = " (1 / 3 * 3) << endl;
 int num;
 cout << "Ingrese un numero: ";
 cin >> num;
-cout << "La potencia de " << num << " es " << (num * num);
+cout << "La potencia de " << num << " es " << (num * num) << endl;
 
 // Ejercicio 1.3
 float yardas;
 cout << "Ingrese las yardas: ";
 cin >> yardas;
-cout << "Numero en metros: "
+cout << "Numero en metros: " << (yardas * 0.9144) << endl;
+
+// Ejercicio 1.4
+int valorAuto = 200000
+
+// Ejercicio 1.5
+int salario = 25000;
+int impFijo = 900;
+float impDeducir = (impFijo + (salario * 0.015));
+float sueldoNeto = (salario - impDeducir);
+cout << "Sueldo Neto: " << sueldoNeto << endl;
+
+
 
